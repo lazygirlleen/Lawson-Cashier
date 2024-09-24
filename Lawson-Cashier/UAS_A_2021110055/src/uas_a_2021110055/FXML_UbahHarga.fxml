@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="336.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uas_a_2021110055.FXML_UbahHargaController">
+   <children>
+      <Button fx:id="btnkembali" layoutX="45.0" layoutY="362.0" mnemonicParsing="false" onAction="#kembaliklik" prefHeight="25.0" prefWidth="65.0" text="Kembali" />
+      <Button fx:id="btnreset" layoutX="231.0" layoutY="360.0" mnemonicParsing="false" onAction="#resetklik" prefHeight="21.0" prefWidth="65.0" text="Reset" />
+      <Button fx:id="btnsimpan" layoutX="136.0" layoutY="360.0" mnemonicParsing="false" onAction="#simpanklik" prefHeight="6.0" prefWidth="65.0" text="Simpan" />
+      <TextField fx:id="hgcheese" layoutX="147.0" layoutY="252.0" />
+      <TextField fx:id="hgrabokki" layoutX="147.0" layoutY="215.0" />
+      <TextField fx:id="hgtteobokki" layoutX="147.0" layoutY="179.0" />
+      <TextField fx:id="hgodeng" layoutX="147.0" layoutY="143.0" />
+      <TextField fx:id="hgdower" layoutX="147.0" layoutY="107.0" />
+      <TextField fx:id="hgbaso" layoutX="147.0" layoutY="69.0" />
+      <Label layoutX="41.0" layoutY="256.0" text="Cheesebokki" />
+      <Label layoutX="41.0" layoutY="219.0" text="Rabokki" />
+      <Label layoutX="41.0" layoutY="183.0" text="Tteobokki" />
+      <Label layoutX="41.0" layoutY="147.0" text="Odeng" />
+      <Label layoutX="41.0" layoutY="111.0" text="Pop Mie Dower" />
+      <Label layoutX="41.0" layoutY="73.0" text="Pop Mie Baso" />
+      <Label layoutX="189.0" layoutY="41.0" text="Harga Item">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="hgchicken" layoutX="147.0" layoutY="296.0" />
+      <Label layoutX="41.0" layoutY="300.0" text="Chicken Karaage" />
+      <Label layoutX="91.0" layoutY="9.0" text="Ubah Harga Lawson">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

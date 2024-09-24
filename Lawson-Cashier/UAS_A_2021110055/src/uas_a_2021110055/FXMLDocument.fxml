@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="536.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uas_a_2021110055.FXMLDocumentController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#544efc" height="38.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="545.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="63.0" layoutX="161.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4f57ff" height="372.0" layoutX="-4.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="551.0" />
+      <Label layoutX="110.0" layoutY="409.0" text="HARGA SUDAH TERMASUK PAJAK" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="361.0" text="tunai" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="308.0" text="Jumlah Item" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="196.0" text="Item Tambahan" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="158.0" text="Nama Item" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rdbespandan" layoutX="144.0" layoutY="262.0" mnemonicParsing="false" text="Es Pandan" textFill="#f5f4f4" />
+      <RadioButton fx:id="rdbicecoffee" layoutX="144.0" layoutY="231.0" mnemonicParsing="false" text="Ice Coffee" textFill="WHITE" />
+      <RadioButton fx:id="rdbairputih" layoutX="143.0" layoutY="197.0" mnemonicParsing="false" text="Air Putih" textFill="WHITE" />
+      <TextField fx:id="txtpembeli" layoutX="146.0" layoutY="108.0" />
+      <Label layoutX="14.0" layoutY="113.0" text="Nama Pembeli" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="chbitem" layoutX="145.0" layoutY="151.0" prefWidth="150.0" />
+      <Button fx:id="btnubah" layoutX="238.0" layoutY="488.0" mnemonicParsing="false" onAction="#ubahhargaklik" prefHeight="25.0" prefWidth="98.0" text="Ubah Harga" />
+      <TextField fx:id="txtjmlhitem" layoutX="144.0" layoutY="303.0" prefHeight="25.0" prefWidth="124.0" promptText="Masukan Jmlh Item" />
+      <Button fx:id="btnkeluar" layoutX="502.0" layoutY="28.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="25.0" prefWidth="29.0" text="X" />
+      <Button fx:id="btnhitung" layoutX="63.0" layoutY="488.0" mnemonicParsing="false" onAction="#modelessklik" prefHeight="25.0" prefWidth="124.0" text="Modeless" />
+      <Label layoutX="201.0" layoutY="24.0" text="LAWSON" textAlignment="CENTER" textFill="#3613ff">
+         <font>
+            <Font name="Bodoni MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="372.0" textAlignment="JUSTIFY" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="324.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lawson-logo.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txttunai" layoutX="145.0" layoutY="354.0" prefHeight="25.0" prefWidth="124.0" promptText="Masukan Tunai" />
+      <Button fx:id="btnhapus" layoutX="384.0" layoutY="488.0" mnemonicParsing="false" onAction="#hapusklik" prefHeight="25.0" prefWidth="98.0" text="Hapus" />
+   </children>
+</AnchorPane>
